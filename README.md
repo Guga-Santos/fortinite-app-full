@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Fortnite Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi desenvolvido apenas para resolver um problema pessoal de não conseguir comparar as estatisticas minhas e de meus amigos dentro do jogo.
 
-## Available Scripts
+## Ferramentas
 
-In the project directory, you can run:
+Este app foi desenvolvido em React.Js, utilizando context API.
+As imagens foram retiradas do site: https://imagenspng.com/;
+
+Este aplicativo não é oficial e não tem autorização da Epic Games. Todas as imagens e recursos são de direito e pertencem à Epic Games.
+
+## Para rodar o aplicativo, siga o tutorial básico de uma aplicação React:
 
 ### `npm start`
 
