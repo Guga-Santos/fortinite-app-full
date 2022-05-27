@@ -1,0 +1,165 @@
+.news-container {
+    width: 80vw;
+    max-height: 62vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 7.95vh;
+    left: 30vw;
+
+    animation-name: imgNews;
+    animation-duration: 3.1s;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes imgNews {
+   0% { z-index: -9999;}
+   99% { z-index: -9999;}
+    
+}
+  
+  .prev-btn,
+  .next-btn {
+    height: 6vh;
+    width: 8vw;
+
+    clip-path: circle();
+    border: none;
+
+    background-color: yellow;
+
+    font-size: 2.4vh;
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.1vw;
+    padding-top: 0.8vh;
+
+    cursor: pointer;
+
+  }
+
+  .prev-btn:hover,
+  .next-btn:hover {
+    height: 6.1vh;
+    width: 8.1vw;
+  }
+
+  .prev-btn {
+      position: absolute;
+      left: 12vw;
+
+      top: 30vh;
+
+      -webkit-clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+      clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+
+
+      z-index: 1000;
+  }
+
+  .prev-btn-shadow {
+    position: absolute;
+    left: 12.5vw;
+
+    width: 8vw;
+    height: 6vh;
+
+    top: 30.5vh;
+
+    -webkit-clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+    clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+
+    z-index: 999;
+
+    background-color: hsl(60, 100%, 10%);
+}
+
+  .next-btn {
+    position: absolute;
+    left: 55vw;
+
+    top: 30vh;
+
+    z-index: 1000;
+
+    -webkit-clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+    clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+}
+
+.next-btn-shadow {
+    position: absolute;
+    left: 55.5vw;
+    top: 30.5vh;
+
+    width: 8vw;
+    height: 6vh;
+
+
+    z-index: 999;
+
+    background-color: hsl(60, 100%, 10%);
+
+    -webkit-clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+    clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+}
+
+  
+  .news-card {
+    width: 60vw;
+  }
+  
+  .news-card img {
+    max-width: 58vw;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+    filter: saturate(0%);
+    opacity: 50%;
+  }
+
+  .card-description{
+      display: flex;
+      align-items: center;
+      background-color: red;
+
+      position: absolute;
+      top: 45vh;
+      left: 30vw;
+
+      height: 11vh;
+      width: 31vw;
+
+      padding: 1vh 2vw;
+
+      font-weight: 400;
+      font-size: 1.8vh;
+      font-family: 'Luckiest Guy', cursive;
+      letter-spacing: 0.2vw;
+      padding-top: 01.3vh;
+      color: white;
+
+      -webkit-clip-path: polygon(3% 1%, 100% 11%, 96% 93%, 0 95%);
+      clip-path: polygon(3% 1%, 100% 11%, 96% 93%, 0 95%);
+      z-index: 1;
+  }
+
+  .card-description-shadow{
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 100%, 30%);
+
+    position: absolute;
+    top: 48vh;
+    left: 31vw;
+
+    height: 9vh;
+    width: 31vw;
+
+    padding: 1vh 2vw;
+
+    -webkit-clip-path: polygon(3% 1%, 100% 11%, 96% 93%, 0 95%);
+    clip-path: polygon(3% 1%, 100% 11%, 96% 93%, 0 95%);
+}
+

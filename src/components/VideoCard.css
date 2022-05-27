@@ -1,0 +1,165 @@
+.video-container {
+    width: 100vw;
+    height: 100vh;
+
+    background: radial-gradient(circle at 50%, hsl(271, 76%, 83%), hsl(271, 76%, 53%));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .video-container button {
+    max-height: 6vh;
+  }
+
+  .frame-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      position: absolute;
+      top: 10vh;
+  }
+
+.frame-container h1 {
+    font-size: 6vh;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    letter-spacing: 0.6vw;
+    padding: 0.2vh 0.4vw;
+
+    margin-top: 0vh;
+
+    color: white;
+
+}
+  
+  iframe {
+    width: 60vw;
+    height: 60vh;
+  }
+
+  .prev-video-btn,
+  .next-video-btn {
+    height: 6vh;
+    width: 8vw;
+
+    clip-path: circle();
+    border: none;
+
+    background-color: yellow;
+
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.1vw;
+    padding-top: 0.8vh;
+
+    cursor: pointer;
+
+  }
+
+  .prev-video-btn:hover,
+  .next-video-btn:hover {
+    height: 6.1vh;
+    width: 8.1vw;
+  }
+
+  .prev-video-btn {
+    position: absolute;
+    left: 10.5vw;
+
+    top: 50vh;
+
+    -webkit-clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+    clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+
+
+    z-index: 1000;
+}
+
+.prev-video-btn-shadow {
+    position: absolute;
+    left: 11vw;
+  
+    width: 8vw;
+    height: 6vh;
+  
+    top: 50.5vh;
+  
+    -webkit-clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+    clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+  
+    z-index: 999;
+  
+    background-color: hsl(60, 100%, 10%);
+  }
+
+  .next-video-btn {
+    position: absolute;
+    left: 81vw;
+  
+    top: 50vh;
+  
+    z-index: 1000;
+  
+    -webkit-clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+    clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+  }
+  
+  .next-video-btn-shadow {
+    position: absolute;
+    left: 81.5vw;
+    top: 50.5vh;
+  
+    width: 8vw;
+    height: 6vh;
+  
+  
+    z-index: 999;
+  
+    background-color: hsl(60, 100%, 10%);
+  
+    -webkit-clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+    clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+  }
+
+  .season-description {
+    height: 8vh;
+    width: 35vw;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding-bottom: 0.6vh;
+    margin-top: -5vh;
+  
+    font-size: 2.6vh;
+    font-weight: 100;
+    letter-spacing: 0.03vw;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.1vw;
+    padding-top: 0.6vh;
+  
+    background-color: white;
+  
+    -webkit-clip-path: polygon(8% 11%, 98% 12%, 93% 80%, 4% 83%);
+    clip-path: polygon(8% 11%, 98% 12%, 93% 80%, 4% 83%);
+
+    z-index: 1000;
+  }
+
+  .season-description-shadow {
+    height: 8vh;
+    width: 35vw;
+
+    margin-top: -10vh;
+    margin-left: 1vw;
+  
+    background-color: rgb(122, 122, 122);
+  
+    -webkit-clip-path: polygon(8% 11%, 98% 12%, 93% 80%, 4% 83%);
+    clip-path: polygon(8% 11%, 98% 12%, 93% 80%, 4% 83%);
+  }

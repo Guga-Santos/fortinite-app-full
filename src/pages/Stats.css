@@ -1,0 +1,377 @@
+.stats-container {
+    background: radial-gradient(circle at 50%, hsl(271, 76%, 83%), hsl(271, 76%, 53%));
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.stats-box-one {
+    width: 20vw;
+    height: 37vh;
+
+    background-color: hsl(210, 80%, 20%) ;
+    opacity: 90%;
+
+    position: absolute;
+    left: 5vw;
+}
+.stats-box-one H1 {
+    color: white;
+    position: absolute;
+    top: -1.3vh;
+    left: 1vw;
+
+    font-size: 3.5vh;
+    font-weight: 900;
+
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.1vw;
+    padding-top: 0.2vh;
+}
+
+.top-border-box-one {
+    background-color: hsl(120, 100%, 30%);
+
+    width: 20vw;
+    height: 5vh;
+}
+
+.top-border-box-one-right {
+    background: linear-gradient(74deg , rgb(0, 60, 0), green 30%);
+
+    width: 6vw;
+    height: 5vh;
+    float: right;
+
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%);
+
+}
+
+.matches-stats-container {
+    width: 65vw;
+    height: 37vh;
+
+    background-color: hsl(210, 80%, 20%) ;
+    opacity: 90%;
+
+    position: absolute;
+    left: 30vw;
+    
+}
+
+.matches-stats-solo {
+    background-color: hsl(220, 60%, 65%);
+
+    position: absolute;
+    top: 0;
+
+    width: 65vw;
+    height: 5vh;
+}
+
+.matches-stats-solo-right {
+    background: linear-gradient(65deg , hsl(255, 60%, 35%) , hsl(220, 60%, 55%)  4%);
+
+    width: 55vw;
+    height: 5vh;
+    float: right;
+
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 2% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 2% 100%);
+}
+
+.matches-stats-duo {
+    background-color: hsl(0, 90%, 45%);
+
+    position: absolute;
+    top: 12vh;
+
+    width: 65vw;
+    height: 5vh;
+}
+
+.matches-stats-duo-right {
+    background: linear-gradient(65deg , hsl(0, 90%, 25%) , hsl(0, 90%, 35%)  4%);
+
+    width: 55vw;
+    height: 5vh;
+    float: right;
+
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 2% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 2% 100%);
+}
+
+.matches-stats-trio {
+    background-color: hsl(50, 90%, 45%);
+
+    position: absolute;
+    top: 24vh;
+
+    width: 65vw;
+    height: 5vh;
+}
+
+.matches-stats-trio-right {
+    background: linear-gradient(65deg , hsl(50, 90%, 25%) , hsl(50, 90%, 35%)  4%);
+
+    width: 55vw;
+    height: 5vh;
+    float: right;
+
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 2% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 2% 100%);
+}
+
+.category-title {
+    color: white;
+
+    position: absolute;
+    top: -1.5vh;
+    left: 1vw;
+
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.1vw;
+    padding-top: 0.2vh;
+
+    height: 5vh;
+    width: 10vw;
+
+}
+
+.solo-stats {
+    width: 65vw;
+    height: 4VH;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    position: absolute;
+    top: 5.5vh;
+}
+
+.duo-stats {
+    width: 65vw;
+    height: 4VH;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    position: absolute;
+    top: 17.5vh;
+}
+
+.squad-stats {
+    width: 65vw;
+    height: 4VH;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    position: absolute;
+    top: 29.5vh;
+}
+
+.solo-stats h4,
+.duo-stats h4,
+.squad-stats h4 {
+    margin: 0;
+    padding-top: 0.5vh;
+
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 100;
+
+    color: white;
+    opacity: 70%;
+
+    width: 13vh;
+
+    text-align: center;
+
+    font-size: 1.7vh;
+}
+
+.solo-infos {
+    width: 65vw;
+    height: 5vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    position: absolute;
+    top: 8vh;
+}
+
+.duo-infos {
+    width: 65vw;
+    height: 5vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    position: absolute;
+    top: 20vh;
+}
+
+.squad-infos {
+    width: 65vw;
+    height: 5vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    position: absolute;
+    top: 32vh;
+}
+
+.solo-infos h3,
+.duo-infos h3,
+.squad-infos h3 {
+    margin: 0;
+    padding-top: 0.5vh;
+
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 100;
+
+    color: white;
+
+    width: 13vh;
+
+    text-align: center;
+
+    font-size: 3.5vh;
+}
+
+.username {
+    width: 20vw;
+
+    color: yellow;
+    position: absolute;
+    top: 5vh;
+    left: 0vw;
+
+    font-size: 4.5vh;
+    font-weight: 400;
+
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.1vw;
+    padding-top: 0.2vh;
+    text-align: center;
+}
+
+.overall-stats {
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 20vw;
+    height: 30vh;
+
+    position: absolute;
+    top: 15vh;
+
+    padding-top: 1.5vh;
+
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 2.2vh;
+
+    color: white;
+    opacity: 80%;
+}
+
+.overall-infos {
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 20vw;
+    height: 30vh;
+
+    position: absolute;
+    top: 17vh;
+
+    padding-top: 1.5vh;
+
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 4.5vh;
+
+    color: yellow;
+
+}
+
+.overall-stats h4,
+.overall-infos h3 {
+    width: 10vw;
+
+    text-align: center;
+
+    padding-top: 0.5vh;
+}
+
+.stats-box-two {
+    width: 20vw;
+    height: 37vh;
+
+    background-color: hsl(210, 80%, 20%) ;
+    opacity: 90%;
+
+    position: absolute;
+    left: 5vw;
+    top: 58vh;
+}
+.stats-box-two H1 {
+    color: white;
+    position: absolute;
+    top: -1.3vh;
+    left: 1vw;
+
+    font-size: 3.5vh;
+    font-weight: 900;
+
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.1vw;
+    padding-top: 0.2vh;
+}
+
+.top-border-box-two {
+    background-color: hsl(120, 100%, 30%);
+
+    width: 20vw;
+    height: 5vh;
+}
+
+.top-border-box-two-right {
+    background: linear-gradient(74deg , rgb(0, 60, 0), green 30%);
+
+    width: 6vw;
+    height: 5vh;
+    float: right;
+
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%);
+
+}
+
+.matches-stats-container-two {
+    width: 65vw;
+    height: 37vh;
+
+    background-color: hsl(210, 80%, 20%) ;
+    opacity: 90%;
+
+    position: absolute;
+    left: 30vw;
+    top: 58vh;
+    
+}
+

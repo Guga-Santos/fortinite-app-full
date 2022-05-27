@@ -1,0 +1,109 @@
+.userInputs-Container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    width: 80vw;
+    height: 8vh;
+  }
+  
+  .userInputs-Container label {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 30vw;
+    margin-left: 3vw;
+  }
+  
+  .userInputs-Container label > input {
+   width: 22vw;
+  }
+
+.label {
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.6vh;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.label:nth-last-child(n) {
+    padding-top: .5vh;
+}
+
+.label > input {
+    height: 3.5vh;
+    border: none;
+    outline:none;
+    border-radius: 0.1vh 2vh;
+
+    padding-top: 0.2vh;
+}
+
+#userOne,
+#userTwo {
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.8vh;
+
+    letter-spacing: 0.1vw;
+
+    padding-left: 1vw;
+}
+
+.compare-btn {
+    height: 5vh;
+    width: 10vw;
+
+    clip-path: circle();
+    border: none;
+
+    background-color: yellow;
+
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.1vw;
+    padding-top: 0.8vh;
+
+    cursor: pointer;
+
+  }
+
+  .compare-btn:hover {
+    height: 5.1vh;
+    width: 10.1vw;
+  }
+
+  .compare-btn {
+    position: absolute;
+    left: 80.5vw;
+
+    top: 9.5vh;
+
+    -webkit-clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+    clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+
+
+    z-index: 1000;
+}
+
+.compare-btn-shadow {
+    position: absolute;
+    left: 81vw;
+  
+    width: 10vw;
+    height: 5vh;
+  
+    top: 10vh;
+  
+    -webkit-clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+    clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+  
+    z-index: 999;
+  
+    background-color: hsl(60, 100%, 10%);
+  }

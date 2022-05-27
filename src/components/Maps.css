@@ -1,0 +1,225 @@
+.maps-big-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+
+    background: radial-gradient(circle at 50%, hsl(271, 76%, 83%), hsl(271, 76%, 53%));
+    
+}
+
+.maps-big-container h1 {
+    position: absolute;
+    top: 6vh;
+
+    font-size: 6vh;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    letter-spacing: 0.6vw;
+    padding-top: 0.2vh;
+
+    color: white;
+}
+
+.maps-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 8vh;
+  }
+
+  .img-container {
+    border: solid red 2vh;
+    max-height: 34.5vw;
+  }
+  
+  .maps-container img {
+    max-width: 35vw;
+    max-height: 70vh;
+
+    box-sizing: border-box;
+
+    /* image-rendering: pixelated; */
+  }
+  
+  .prevMaps-btn,
+  .nextMaps-btn {
+    height: 6vh;
+    width: 8vw;
+
+    clip-path: circle();
+    border: none;
+
+    background-color: yellow;
+
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.1vw;
+    padding-top: 0.8vh;
+
+    cursor: pointer;
+
+  }
+
+  .prevMaps-btn:hover,
+  .nextMaps-btn:hover {
+    height: 6.1vh;
+    width: 8.1vw;
+  }
+
+  .range-input {
+    margin-top: 1vh;
+
+    height: 0.8vh;
+    width: 100%;
+  }
+
+  .range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .prevMaps-btn {
+    position: absolute;
+    left: 24.5vw;
+
+    top: 43vh;
+
+    -webkit-clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+    clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+
+
+    z-index: 1000;
+}
+
+.prevMaps-btn-shadow {
+  position: absolute;
+  left: 25vw;
+
+  width: 8vw;
+  height: 6vh;
+
+  top: 43.5vh;
+
+  -webkit-clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+  clip-path: polygon(7% 3%, 100% 0%, 95% 96%, 0% 100%);
+
+  z-index: 999;
+
+  background-color: hsl(60, 100%, 10%);
+}
+
+.nextMaps-btn {
+  position: absolute;
+  left: 67vw;
+
+  top: 43vh;
+
+  z-index: 1000;
+
+  -webkit-clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+  clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+}
+
+.nextMaps-btn-shadow {
+  position: absolute;
+  left: 67.5vw;
+  top: 43.5vh;
+
+  width: 8vw;
+  height: 6vh;
+
+
+  z-index: 999;
+
+  background-color: hsl(60, 100%, 10%);
+
+  -webkit-clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+  clip-path: polygon(0 0, 94% 5%, 100% 100%, 4% 95%);
+}
+
+  .maps-inputs {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+.bus-img {
+  max-width: 25vw;
+  position: absolute;
+
+  left: 5vw;
+  top: 20vh;
+
+  opacity: 5%;
+
+  animation-name: bus;
+  animation-duration: 45s;
+
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bus {
+  0% {left: 110vw; transform: translateX(10vh);}
+  
+}
+
+.date {
+  height: 8vh;
+  width: 15vw;
+
+  position: absolute;
+  top: 75vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 0.6vh;
+
+  font-size: 2.6vh;
+  font-weight: 100;
+  letter-spacing: 0.03vw;
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing: 0.1vw;
+  padding-top: 0.6vh;
+
+  background-color: white;
+
+  -webkit-clip-path: polygon(8% 11%, 98% 12%, 93% 80%, 4% 83%);
+  clip-path: polygon(8% 11%, 98% 12%, 93% 80%, 4% 83%);
+
+  z-index: 1000;
+}
+
+.date-shadow {
+  height: 8vh;
+  width: 15vw;
+
+  position: absolute;
+  top: 78.5vh;
+  left: 42.7vw;
+
+  background-color: rgb(122, 122, 122);
+
+  -webkit-clip-path: polygon(8% 11%, 98% 12%, 93% 80%, 4% 83%);
+  clip-path: polygon(8% 11%, 98% 12%, 93% 80%, 4% 83%);
+}
+
+  /* */
+  

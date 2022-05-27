@@ -1,0 +1,35 @@
+.upcoming-big-container {
+    width: 100vw;
+    height: 100vh;
+
+    background: radial-gradient(circle at 50%, hsl(271, 76%, 83%), hsl(271, 76%, 53%));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcoming-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    width: 78vw;
+    height: 80vh;
+
+    overflow: scroll;
+
+    position: absolute;
+    top: 8vh;
+    padding-bottom: 15vh;
+  }
+  
+  .upcoming-card {
+    width: 13vw;
+    margin-top: 2vh;
+  }
+  
+  .upcoming-card img {
+    max-width: 10vw;
+  }
+  

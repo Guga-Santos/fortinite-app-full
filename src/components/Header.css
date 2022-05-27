@@ -1,0 +1,91 @@
+.header-container {
+    width: 100vw;
+    height: 8vh;
+
+    background-color: hsl(0, 0%, 16%);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 2vw;
+    height: 14vh;
+
+    filter: invert(100%);
+    image-rendering: pixelated;
+
+    cursor: pointer;
+
+    z-index: 1000;
+}
+
+.logo:hover {
+    height: 14.5vh;
+}
+
+.nav-bar {
+    width: 50vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 3vw;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 0.7vw;
+
+    width: 9vw ;
+    height: 8vh;
+
+    cursor: pointer;
+}
+
+.nav-links:hover {
+    padding-top: 1.5vh;
+    box-sizing: border-box;
+    border-bottom: 1.5vh solid yellow;
+
+    animation-name: borderNav;
+    animation-duration: 0.3s;
+}
+
+@keyframes borderNav {
+    0% {  border-bottom: 0.01vh solid yellow; padding-top: 0vh }
+    100% {  border-bottom: 1.5vh solid yellow; padding-top: 1.5vh }
+    
+}
+
+.download {
+    width: 10vw;
+    height: 8vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3vh;
+    font-weight: 900;
+    
+    background-color: yellow;
+    color: rgba(0, 0, 0, 0.9);
+
+    cursor: pointer;
+}
+
+.download:hover {
+    background-color: rgba(255, 255, 0, 0.9);
+}
+
+.anchor-header {
+    text-decoration: none;
+    color: black;
+}

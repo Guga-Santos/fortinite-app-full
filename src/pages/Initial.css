@@ -1,0 +1,55 @@
+.landing-page-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 16%);
+}
+
+.character {
+    /* width: 40vw; */
+    min-width: 500px;
+    height: 71.5vh;
+    position: absolute;
+    top: .4vh;
+    left: 2vw;
+
+    /* image-rendering: pixelated; */
+    /* transform: scaleX(-1); */
+
+    user-select: none;
+
+  
+    animation-name: char;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+  }
+
+  .news-word {
+    position: absolute;
+    left: 42vw;
+
+    font-weight: 400;
+    font-family: 'Luckiest Guy', cursive;
+
+    font-size: 5vh;
+  }
+  
+  @keyframes char {
+    0% {left: 80vw }
+    100% {left: 2vw;}
+  }
+  
+  .char-background {
+    width: 100vw;
+    height: 62vh;
+    background-color: blueviolet;
+
+    background: radial-gradient(circle at 5%, rgb(215, 173, 255), blueviolet );
+  }
+  
+  .char-background-border {
+    background-color: yellow;
+    width: 100vw;
+    height: 3vh;
+  
+    position: absolute;
+  }
