@@ -53,3 +53,29 @@
   
     position: absolute;
   }
+
+  .social-container {
+    display: flex;
+    position: absolute;
+    bottom: 3vh;
+    margin-left: 5vw;
+
+  }
+
+  .social-container img {
+    max-width: 5vh;
+    margin: auto 0.5vw;
+    filter: invert(70%);
+  }
+
+  .copyright-infos {
+    position: absolute;
+    bottom: 2.3vh;
+    left: 20vw;
+    color: hsl(0, 0%, 80%);
+
+    font-size: 2vh;
+  }
+  .copyright-infos h5 {
+    margin: 0.8vh;
+  }

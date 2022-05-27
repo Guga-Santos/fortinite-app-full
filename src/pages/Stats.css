@@ -72,6 +72,7 @@
 
     width: 65vw;
     height: 5vh;
+    font-size: 2.1vh;
 }
 
 .matches-stats-solo-right {
@@ -93,6 +94,7 @@
 
     width: 65vw;
     height: 5vh;
+    font-size: 2.1vh;
 }
 
 .matches-stats-duo-right {
@@ -114,6 +116,7 @@
 
     width: 65vw;
     height: 5vh;
+    font-size: 2.1vh;
 }
 
 .matches-stats-trio-right {
