@@ -34,14 +34,9 @@ export default function Maps() {
             <span className="prevMaps-btn-shadow" />
             <div className="maps-inputs">
                         <div className="img-container">
-                {/* <TransformWrapper>
-                    <TransformComponent> */}
-
                     <MapInteractionCSS minScale="1">
                          <img src={maps?.maps[index]?.url} alt="imagem do mapa" />
                          </MapInteractionCSS>
-                     {/* </TransformComponent>
-                </TransformWrapper> */}
                         </div>
                 <input 
                 type="range" 
