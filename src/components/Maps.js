@@ -16,7 +16,7 @@ export default function Maps() {
         }
 
         if(target.id === 'Next') {
-            setIndex(index === '131' || index > 131 ? 132 : +index + 1)
+            setIndex(index === '163' || index > 163 ? 163 : +index + 1)
 
         }
     }
